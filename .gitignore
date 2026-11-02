@@ -1,0 +1,17 @@
+# Environment and secrets
+.env
+*.json
+!.env.example
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Temporary files
+.streamlit/secrets.toml
+*.log
+.DS_Store
+
+# Local generated data
